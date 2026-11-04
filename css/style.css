@@ -32,6 +32,26 @@ img{
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
+
+    grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+}
+.container > header{
+    grid-area: header;
+}
+.container > nav{
+    grid-area: nav;
+}
+.container > main{
+    grid-area: main;
+}
+.container > aside{
+    grid-area: aside;
+}
+.container > footer{
+    grid-area: footer;
 }
 header, footer{
     background-color: var(--green-color);
