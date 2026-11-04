@@ -37,6 +37,9 @@ img{
     "header header header"
     "nav main aside"
     "footer footer footer";
+
+    grid-template-columns: 1fr 3fr 1.5fr;
+    gap: 1.5rem;
 }
 .container > header{
     grid-area: header;
