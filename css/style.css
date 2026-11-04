@@ -71,6 +71,12 @@ img{
         display: flex;
     }
 }
+
+main, aside{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 header, footer{
     background-color: var(--green-color);
     text-align: center;
