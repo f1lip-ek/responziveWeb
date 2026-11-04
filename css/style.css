@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+p {
+    margin-bottom: 1.25rem;
+}
+:root {
+    --green-color: rgb(107 143 113);
+    --brown-color: rgb(139 94 60);
+    --white-color: rgb(107 116 112);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.card{
+    padding: 1rem;
+    border: 1px solid var(--green-color);
+    border-radius: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 black;
+}
+.container{
+    display: grid;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+header, footer{
+    background-color: var(--green-color);
+    text-align: center;
+    padding: 0.75rem;
+    margin: auto;
+}
+header{
+    background: linear-gradient(var(--white-color), var(--brown-color));
+}
