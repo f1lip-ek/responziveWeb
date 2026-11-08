@@ -129,6 +129,10 @@ header{
             flex: 1;
             text-align: center;
         }
+        a{
+            padding: .25rem;
+            justify-content: center;
+        }
     }
 }
 
@@ -146,5 +150,18 @@ header{
 
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    #nav_menu{
+        flex-direction: column;
+        a{
+            padding: .25rem;
+            justify-content: center;
+        }
+    }
+    #nabidka{
+        flex-direction: column;
+    }
+    .tip-na-vylet{
+        display: none;
     }
 }
