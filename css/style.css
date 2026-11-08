@@ -92,3 +92,7 @@ header{
     flex-direction: row;
     justify-content: center;
 }
+.cas{
+    display: flex;
+    justify-content: space-between;
+}
