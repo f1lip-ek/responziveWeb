@@ -96,3 +96,12 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: .75rem;
+    img{
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+}
