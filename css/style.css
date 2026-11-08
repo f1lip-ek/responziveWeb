@@ -25,10 +25,11 @@ img{
     border: 1px solid var(--green-color);
     border-radius: 20px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 black;
+    flex: 1;
 }
 .container{
     display: grid;
-    max-width: 70rem;
+    max-width: 80rem;
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -85,4 +86,9 @@ header, footer{
 }
 header{
     background: linear-gradient(var(--white-color), var(--brown-color));
+}
+#nabidka{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
