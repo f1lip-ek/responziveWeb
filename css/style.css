@@ -75,6 +75,7 @@ img{
         transition: background-color .6s ease;
         text-decoration: none;
         display: flex;
+        padding: .3rem .5rem;
     }
     a:hover, a:focus {
         background-color: var(--grey-color);
