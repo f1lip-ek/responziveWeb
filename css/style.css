@@ -175,7 +175,7 @@ header{
             transition: none;
         }
     }
-    #nabidka{
+    .nabidka{
         flex-direction: column;
     }
     .tip-na-vylet{
