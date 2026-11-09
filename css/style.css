@@ -153,6 +153,7 @@ header{
     }
     #nav_menu{
         flex-direction: column;
+        gap: .75rem;
         a{
             padding: .25rem;
             justify-content: center;
@@ -163,5 +164,21 @@ header{
     }
     .tip-na-vylet{
         display: none;
+    }
+    .card{
+        gap: .5rem;
+    }
+    h1{
+        font-size: 1.15rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: .9rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: .5rem;
     }
 }
