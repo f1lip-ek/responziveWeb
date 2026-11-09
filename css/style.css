@@ -15,10 +15,13 @@ body {
 p {
     margin-bottom: 1.25rem;
 }
+a{
+    color: black;
+}
 :root {
     --green-color: rgb(107 143 113);
     --brown-color: rgb(139 94 60);
-    --white-color: rgb(133 143 140);
+    --grey-color: rgb(133 143 140);
 }
 img{
     max-width: 100%;
@@ -27,7 +30,7 @@ img{
 .card{
     padding: 1rem;
     border: 3px solid var(--green-color);
-    background-color: var(--white-color);
+    background-color: var(--grey-color);
     border-radius: 20px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 black;
     flex: 1;
@@ -41,7 +44,7 @@ img{
 
     grid-template-areas:
     "header header header"
-    "nav main aside"
+    "aside main nav"
     "footer footer footer";
 
     grid-template-columns: 1fr 3fr 1.5fr;
@@ -71,8 +74,8 @@ img{
     li{
         transition: background-color .6s ease;
     }
-    li:hover, li:focus {
-        background-color: var(--white-color);
+    li:hover, li:focus, a:hover, a:focus {
+        background-color: var(--grey-color);
     }
     a{
         text-decoration: none;
@@ -92,12 +95,13 @@ header, footer{
     margin: 0;
 }
 header{
-    background: linear-gradient(var(--white-color), var(--brown-color));
+    background: linear-gradient(var(--grey-color), var(--brown-color));
 }
-#nabidka{
+.nabidka{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: .35rem;
 }
 .cas{
     display: flex;
@@ -113,8 +117,11 @@ header{
     }
     figcaption{
         font-size: smaller;
-        color: var(--white-color);
+        color: #ddd;
     }
+}
+.centered{
+    text-align: center;
 }
 @media (max-width: 1024px) {
     .container{
@@ -178,13 +185,13 @@ header{
         gap: .5rem;
     }
     h1{
-        font-size: 1.15rem;
+        font-size: 1.5rem;
     }
     h2{
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
     h3{
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     .gallery{
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
