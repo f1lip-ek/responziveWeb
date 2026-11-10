@@ -20,7 +20,7 @@ a{
 }
 :root {
     --green-color: rgb(107 143 113);
-    --brown-color: rgb(139 94 60);
+    --brown-color: rgb(161 109 70);
     --grey-color: rgb(133 143 140);
 }
 img{
@@ -71,11 +71,17 @@ img{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    background-color: var(--green-color);
+    border-radius: 9px;
+    padding: 0.5rem;
     a{
         transition: background-color .6s ease;
         text-decoration: none;
         display: flex;
         padding: .3rem .5rem;
+        background-color: var(--brown-color);
+        border: 3px solid var(--brown-color);
+        border-radius: 15px;
     }
     a:hover, a:focus {
         background-color: var(--grey-color);
@@ -116,7 +122,7 @@ header{
     }
     figcaption{
         font-size: smaller;
-        color: #ddd;
+        color: #ffffff;
     }
 }
 .centered{
