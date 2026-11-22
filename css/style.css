@@ -252,4 +252,12 @@ header{
         --link-text: rgb(129 199 132);
         --price-text: rgb(217 136 71);
     }
+    img{
+        filter: brightness(0.85);
+        transition: filter 0.3s ease;
+    }
+    img:hover{
+        filter: brightness(1);
+        transition: filter 1s ease;
+    }
 }
