@@ -40,9 +40,13 @@ a{
     --text-main: rgb(0, 0, 0);
     --text-muted: rgb(255, 255, 255);
     --link-text: rgb(0, 0, 0);
+    --price-text: rgb(0, 0, 0);
 }
 .menuLink{
     color: var(--text-main);
+}
+.cena{
+    color: var(--price-text);
 }
 img{
     max-width: 100%;
@@ -246,5 +250,6 @@ header{
         --text-main: rgb(226 237 229);
         --text-muted: rgb(149 163 153);
         --link-text: rgb(129 199 132);
+        --price-text: rgb(217 136 71);
     }
 }
