@@ -220,3 +220,26 @@ header{
         gap: .5rem;
     }
 }
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: rgb(20 26 22);
+
+        --card-border: rgb(85, 45, 110);
+        --card-bg: rgb(45, 50, 48);
+        --card-shadow: rgba(0, 0, 0, 0.2);
+        --card-shadow2: rgb(0, 0, 0);
+
+        --nav-menu-bg: rgb(55, 85, 60);
+        --nav-menu-a-bg: rgb(80, 50, 28);
+        --nav-menu-a-border: rgb(80, 50, 28);
+        --nav-menu-focus: rgb(65, 72, 70);
+
+        --header-footer-bg: rgb(30, 50, 35);
+
+        --linear-gradient1: rgb(65, 72, 70);
+        --linear-gradient2: rgb(20 26 22);
+
+        --text-main: rgb(226 237 229);
+        --text-muted: rgb(149 163 153);
+    }
+}
