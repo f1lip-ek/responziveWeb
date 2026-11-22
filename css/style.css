@@ -17,7 +17,7 @@ p {
     margin-bottom: 1.25rem;
 }
 a{
-    color: var(--text-main);
+    color: var(--link-text);
 }
 :root {
     --bg-color: rgb(161, 109, 70);
@@ -39,6 +39,10 @@ a{
 
     --text-main: rgb(0, 0, 0);
     --text-muted: rgb(255, 255, 255);
+    --link-text: rgb(0, 0, 0)
+}
+.menuLink{
+    color: var(--text-main);
 }
 img{
     max-width: 100%;
@@ -241,5 +245,6 @@ header{
 
         --text-main: rgb(226 237 229);
         --text-muted: rgb(149 163 153);
+        --link-text: rgb(129 199 132);
     }
 }
