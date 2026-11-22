@@ -261,3 +261,23 @@ header{
         transition: filter 1s ease;
     }
 }
+
+@media print{
+    nav, .tip-na-vylet {
+        display: none !important;
+    }
+    body{
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+    }
+    .card{
+        box-shadow: none;
+        border: 3px solid rgb(80, 80, 80);
+    }
+    .container{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+}
