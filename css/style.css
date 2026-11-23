@@ -273,11 +273,44 @@ header{
     .card{
         box-shadow: none;
         border: 3px solid rgb(80, 80, 80);
+
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    .provozni-doba{
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    figure{
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    h1, h2, h3{
+        break-after: avoid;
+        page-break-after: avoid;
+    }
+    header, footer, section, article{
+        break-inside: avoid;
+        page-break-inside: avoid;
     }
     .container{
         max-width: 100%;
         margin: 0;
         padding: 0;
         display: block;
+    }
+    a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.85em;
+        color: #555;
+    }
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); gap: 0.5rem;
+    }
+    #o_chate{
+        img{
+            height: 30rem;
+            width: auto;
+        }
     }
 }
