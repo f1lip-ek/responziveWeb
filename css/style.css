@@ -263,7 +263,7 @@ header{
 }
 
 @media print{
-    nav, .tip-na-vylet {
+    nav, .tip-na-vylet, footer {
         display: none !important;
     }
     body{
@@ -289,7 +289,7 @@ header{
         break-after: avoid;
         page-break-after: avoid;
     }
-    header, footer, section, article{
+    section{
         break-inside: avoid;
         page-break-inside: avoid;
     }
